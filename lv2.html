@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>steg lv2</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div class="main">
+      <p id="change">Hello, HTML!</p>
+      <button onclick="change();">変更</button>
+    </div>
+    
+    <script>
+      function change() {
+        document.getElementById("change").innerHTML = 'Hello, JS!';
+      }
+    </script>
+  </body>
+</html>
