@@ -3,14 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>steg lv2</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="lv4.css">
   </head>
   <body>
+    <header>
+      <p>steg道場　Lv4</p>
+    </header>
     <div class="main">
       <p id="change">Hello, HTML!</p>
-      <button onclick="change();">変更</button>
+      <button onclick="change();"　class="button">変更</button>
     </div>
-    
+
     <script>
       function change() {
         document.getElementById("change").innerHTML = 'Hello, JS!';
