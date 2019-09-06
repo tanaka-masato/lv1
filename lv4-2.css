@@ -1,0 +1,25 @@
+header{
+  padding: 10px;
+  font-size: 30px;
+  background-color: #00ff7f	;
+}
+
+.main{
+  border-top: solid;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.puls{
+  padding-top: 40px;
+}
+
+#x, #y, #answer{
+  height: 30px;
+}
+
+#button:hover{
+  background-color: #696969	;
+  cursor: pointer;
+}
