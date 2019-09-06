@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>steg lv3</title>
+  </head>
+  <body>
+    <div class="main">
+      <label for="textForm1"></label>
+      <input type="text" id="x">
+      <label for="textForm2">+</label>
+      <input type="text" id="y">
+      <button id="button">=</button>
+      <label for="answer"></label>
+      <input type="text" id="answer">
+    </div>
+  </body>
+
+
+<script>
+
+var button = document.getElementById("button");
+
+button.addEventListener("click", function(e) {
+  e.preventDefault();
+    var textForm1 = document.getElementById("x").value;
+    var textForm2 = document.getElementById("y").value;
+
+    var sum = parseInt(textForm1, 10) + parseInt(textForm2, 10);
+
+    var resultForm = document.getElementById("answer");
+    resultForm.value = sum;
+});
+
+</script>
+</html>
