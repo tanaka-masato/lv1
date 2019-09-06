@@ -1,0 +1,26 @@
+header{
+  padding: 10px;
+  font-size: 30px;
+  background-color: #00ff7f	;
+}
+
+.main{
+  border-top: solid;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 50px;
+}
+
+#change{
+  text-align: center;
+}
+
+button{
+  font-size: 15px;
+  padding: 10px 30px;
+}
+
+button:hover{
+  background-color: #696969	;
+  cursor: pointer;
+}
