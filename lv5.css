@@ -1,0 +1,15 @@
+header{
+  padding: 10px;
+  font-size: 30px;
+  background-color: #00ff7f	;
+}
+
+.main{
+  border-top: solid;
+  text-align: center;
+}
+
+#RealtimeClockArea{
+  font-size: 30px;
+  padding-top: 50px;
+}
