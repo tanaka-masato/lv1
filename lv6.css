@@ -1,0 +1,12 @@
+header{
+  padding: 10px;
+  font-size: 30px;
+  background-color: #00ff7f	;
+}
+
+.main{
+  text-align: center;
+  background-color: aqua;
+  border-top: solid;
+  padding: 20px;
+}
