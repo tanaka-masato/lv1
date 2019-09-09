@@ -1,3 +1,3 @@
 $(function () {
-  $('IMG_8852').fadeIn(1500);
-});
+  $(".main").fadeIn(2000);
+})
