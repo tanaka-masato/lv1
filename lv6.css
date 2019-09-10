@@ -9,4 +9,5 @@ header{
   background-color: aqua;
   border-top: solid;
   padding: 20px;
+  display: none;
 }
